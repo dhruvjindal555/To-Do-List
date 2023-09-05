@@ -106,6 +106,29 @@ ul li.unChecked {
 .listContainer ul li span:hover {
    background-color: rgb(186, 186, 186);
 }
+footer {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        background-color: black;
+        margin: 0;
+        padding: 5px;
+    }
+
+    footer div {
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin: 5px 10px;
+    }
+
+    footer i {
+        cursor: pointer;
+        margin: 5px;
+    }
 
 @media only screen and (max-width:884px) {
     .card{
